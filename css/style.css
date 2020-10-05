@@ -270,6 +270,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 .shop-categories-section .card {
   border-radius: 16px;
   border: none;
+  cursor: pointer;
 }
 .shop-categories-section .card:hover {
   transform: scale(1.05);
