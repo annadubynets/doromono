@@ -1,0 +1,7 @@
+@import "./ds-icons.css";
+i[class^=ds-icon-], i[class*=" ds-icon-"] {
+  font-family: diy-icon !important;
+  margin: auto;
+}
+
+/*# sourceMappingURL=icons.css.map */

@@ -4,6 +4,7 @@
 @import "buttons";
 @import "backgrounds";
 @import "texts";
+@import "icons";
 
 header {
   background-color: $yellow-light-color;
@@ -11,6 +12,10 @@ header {
     color: $black-color;
     font-family: $font-family-secondary;
     font-size: $font-size-xs;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
   }
 }
 

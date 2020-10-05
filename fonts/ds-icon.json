@@ -1,3 +1,13 @@
 {
-    "icon-restaurants": "\\f101"
+    "icon-beauty": "\\f101",
+    "icon-clothing": "\\f102",
+    "icon-entertainment": "\\f103",
+    "icon-kids": "\\f104",
+    "icon-restaurants": "\\f105",
+    "icon-retail": "\\f106",
+    "icon-search": "\\f107",
+    "icon-services": "\\f108",
+    "icon-shop": "\\f109",
+    "icon-spa": "\\f10a",
+    "icon-travel": "\\f10b"
 }

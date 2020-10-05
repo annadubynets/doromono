@@ -1,10 +1,10 @@
 @font-face {
     font-family: "ds-icon";
-    src: url("../fonts/ds-icon.eot?e7294012c8f9ccfac9450251f1491b54?#iefix") format("embedded-opentype"),
-url("../fonts/ds-icon.woff2?e7294012c8f9ccfac9450251f1491b54") format("woff2"),
-url("../fonts/ds-icon.woff?e7294012c8f9ccfac9450251f1491b54") format("woff"),
-url("../fonts/ds-icon.ttf?e7294012c8f9ccfac9450251f1491b54") format("truetype"),
-url("../fonts/ds-icon.svg?e7294012c8f9ccfac9450251f1491b54#ds-icon") format("svg");
+    src: url("../fonts/ds-icon.eot?42684a458469c6915dd4f8f31b8b4b99?#iefix") format("embedded-opentype"),
+url("../fonts/ds-icon.woff2?42684a458469c6915dd4f8f31b8b4b99") format("woff2"),
+url("../fonts/ds-icon.woff?42684a458469c6915dd4f8f31b8b4b99") format("woff"),
+url("../fonts/ds-icon.ttf?42684a458469c6915dd4f8f31b8b4b99") format("truetype"),
+url("../fonts/ds-icon.svg?42684a458469c6915dd4f8f31b8b4b99#ds-icon") format("svg");
 }
 
 i[class^="ds-icon-"]:before, i[class*=" ds-icon-"]:before {
@@ -18,6 +18,36 @@ i[class^="ds-icon-"]:before, i[class*=" ds-icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.ds-icon-restaurants:before {
+.ds-icon-beauty:before {
     content: "\f101";
+}
+.ds-icon-clothing:before {
+    content: "\f102";
+}
+.ds-icon-entertainment:before {
+    content: "\f103";
+}
+.ds-icon-kids:before {
+    content: "\f104";
+}
+.ds-icon-restaurants:before {
+    content: "\f105";
+}
+.ds-icon-retail:before {
+    content: "\f106";
+}
+.ds-icon-search:before {
+    content: "\f107";
+}
+.ds-icon-services:before {
+    content: "\f108";
+}
+.ds-icon-shop:before {
+    content: "\f109";
+}
+.ds-icon-spa:before {
+    content: "\f10a";
+}
+.ds-icon-travel:before {
+    content: "\f10b";
 }
