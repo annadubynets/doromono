@@ -1,0 +1,109 @@
+@import "variables";
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../fonts/Montserrat-Medium.eot');
+  src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+  url('../fonts/Montserrat-Medium.woff') format('woff'),
+  url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+  url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../fonts/Montserrat-SemiBold.eot');
+  src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+  url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+  url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+  url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circular-Std-Medium';
+  src: url('../fonts/CircularStd-Medium.eot');
+  src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+  url('../fonts/CircularStd-Medium.woff') format('woff'),
+  url('../fonts/CircularStd-Medium.ttf') format('truetype'),
+  url('../fonts/CircularStd-Medium.svg#CircularStd-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Circular-Std-Bold';
+  src: url('../fonts/CircularStd-Bold.eot');
+  src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+  url('../fonts/CircularStd-Bold.woff') format('woff'),
+  url('../fonts/CircularStd-Bold.ttf') format('truetype'),
+  url('../fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-size-xxs {
+  font-size: $font-size-xxs;
+}
+
+.font-size-xs {
+  font-size: $font-size-xs;
+}
+
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+
+.font-size-md {
+  font-size: $font-size-md;
+}
+
+.font-size-lg {
+  font-size: $font-size-lg;
+}
+
+.font-size-xl {
+  font-size: $font-size-xl;
+}
+
+h1 {
+  font-family: $font-family-main-bold;
+  font-size: $font-size-xl;
+  color: $black-color;
+}
+
+h2 {
+  font-family: $font-family-main-bold;
+  font-size: 56px;
+  color: $yellow-color;
+}
+
+h3 {
+  font-family: $font-family-main-medium;
+  font-size: $font-size-lg;
+  color: $black-color;
+}
+
+h4 {
+  font-family: $font-family-secondary;
+  font-size: $font-size-lg;
+  color: $white-color;
+}
+
+p {
+  font-family: $font-family-primary;
+  font-size: $font-size-xs;
+  color: $white-color;
+}
+
+

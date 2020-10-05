@@ -1,0 +1,224 @@
+@import "bootstrap.min.css";
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.eot");
+  src: url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Medium.svg#Montserrat-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype"), url("../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circular-Std-Medium";
+  src: url("../fonts/CircularStd-Medium.eot");
+  src: url("../fonts/CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff"), url("../fonts/CircularStd-Medium.ttf") format("truetype"), url("../fonts/CircularStd-Medium.svg#CircularStd-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.eot");
+  src: url("../fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff"), url("../fonts/CircularStd-Bold.ttf") format("truetype"), url("../fonts/CircularStd-Bold.svg#CircularStd-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.font-size-xxs {
+  font-size: 12px;
+}
+
+.font-size-xs {
+  font-size: 16px;
+}
+
+.font-size-sm {
+  font-size: 18px;
+}
+
+.font-size-md {
+  font-size: 20px;
+}
+
+.font-size-lg {
+  font-size: 44px;
+}
+
+.font-size-xl {
+  font-size: 84px;
+}
+
+h1 {
+  font-family: "Circular-Std-Bold", sans-serif;
+  font-size: 84px;
+  color: #2B2D42;
+}
+
+h2 {
+  font-family: "Circular-Std-Bold", sans-serif;
+  font-size: 56px;
+  color: #E0B300;
+}
+
+h3 {
+  font-family: "Circular-Std-Medium", sans-serif;
+  font-size: 44px;
+  color: #2B2D42;
+}
+
+h4 {
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 44px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.btn-primary {
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #FF7400;
+  color: #FFFFFF;
+  border-radius: 12px;
+  border-color: transparent;
+  text-align: center;
+  padding: 13px 52px;
+  margin: 1px;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #FFFFFF !important;
+  border: 1px solid #FF7400 !important;
+  color: #FF7400 !important;
+  outline: none !important;
+  box-shadow: 0px 15px 18px rgba(87, 74, 151, 0.21);
+  margin: 0px;
+}
+
+.btn:active, .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  font-size: 18px;
+  line-height: 22px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px;
+  text-align: center;
+  padding: 13px 42px;
+  margin: 1px;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  color: #2B2D42;
+  background-color: #FFFFFF;
+  outline: none !important;
+  border: 2px solid transparent;
+  margin: 0px;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-yellow-light {
+  background-color: #FFCC00;
+}
+
+.bg-yellow {
+  background-color: #E0B300;
+}
+
+.bg-beige {
+  background-color: #D1CA99;
+}
+
+.bg-golden {
+  background-color: #DEC651;
+}
+
+.bg-orange {
+  background-color: #FF7400;
+}
+
+.bg-purple {
+  background-color: #A54C85;
+}
+
+.bg-pink {
+  background-color: #EF476F;
+}
+
+.bg-pink-light {
+  background-color: #E06C9F;
+}
+
+.bg-olive {
+  background-color: #89B0AE;
+}
+
+.bg-emerald {
+  background-color: #48A9A6;
+}
+
+.bg-green {
+  background-color: #387780;
+}
+
+.bg-blue {
+  background-color: #26547C;
+}
+
+.bg-black {
+  background-color: #2B2D42;
+}
+
+.text-white {
+  color: #FFFFFF !important;
+}
+
+.text-black {
+  color: #2B2D42 !important;
+}
+
+header {
+  background-color: #FFCC00;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: #2B2D42;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 16px;
+}
+
+.main-section {
+  background-color: #FFCC00;
+  padding: 88px 0px 40px;
+  background-image: url("../images/mcdonalds-fast-food.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.shop-categories-section {
+  padding: 108px 0px;
+}
+
+.card {
+  border-radius: 16px;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

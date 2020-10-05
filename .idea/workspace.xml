@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b80b6f1a-fd3f-41d6-bf75-6efcfd3271a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/backgrounds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/texts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/CircularStd-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iS1X0fjWIhtRT1iV4UmFDnHm7f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b80b6f1a-fd3f-41d6-bf75-6efcfd3271a7" name="Default Changelist" comment="" />
+      <created>1601886215151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601886215151</updated>
+      <workItem from="1601886216308" duration="120000" />
+      <workItem from="1601886412537" duration="177000" />
+      <workItem from="1601886643941" duration="395000" />
+      <workItem from="1601888028209" duration="155000" />
+      <workItem from="1601888206505" duration="756000" />
+      <workItem from="1601889057038" duration="560000" />
+      <workItem from="1601889715831" duration="1388000" />
+      <workItem from="1601891185156" duration="81000" />
+      <workItem from="1601891314254" duration="867000" />
+      <workItem from="1601892512433" duration="126000" />
+      <workItem from="1601892748079" duration="916000" />
+      <workItem from="1601893799389" duration="840000" />
+      <workItem from="1601898895480" duration="1394000" />
+      <workItem from="1601900355363" duration="1057000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="391" y="229" key="EditFileWatcherDialog" timestamp="1601886315776">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state x="391" y="229" key="EditFileWatcherDialog/0.23.1440.841@0.23.1440.841" timestamp="1601886315776" />
+  </component>
+</project>

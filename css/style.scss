@@ -1,0 +1,32 @@
+@import "bootstrap.min.css";
+@import "variables";
+@import "typography";
+@import "buttons";
+@import "backgrounds";
+@import "texts";
+
+header {
+  background-color: $yellow-light-color;
+  .navbar-light .navbar-nav .nav-link {
+    color: $black-color;
+    font-family: $font-family-secondary;
+    font-size: $font-size-xs;
+  }
+}
+
+.main-section {
+  background-color: $yellow-light-color;
+  padding: 88px 0px 40px;
+  background-image: url("../images/mcdonalds-fast-food.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.shop-categories-section {
+  padding: 108px 0px;
+}
+
+.card {
+  border-radius: 16px;
+  border: none;
+}

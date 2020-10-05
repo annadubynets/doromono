@@ -1,0 +1,23 @@
+@import "variables";
+
+$colours:
+        "white" $white-color,
+        "yellow-light" $yellow-light-color,
+        "yellow" $yellow-color,
+        "beige" $beige-color,
+        "golden" $golden-color,
+        "orange" $orange-color,
+        "purple" $purple-color,
+        "pink" $pink-color,
+        "pink-light" $pink-light-color,
+        "olive" $olive-color,
+        "emerald" $emerald-color,
+        "green" $green-color,
+        "blue" $blue-color,
+        "black" $black-color;
+
+@each $i in $colours{
+  .bg-#{nth($i, 1)} {
+    background-color: nth($i, 2);
+  }
+}
