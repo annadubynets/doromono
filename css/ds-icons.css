@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "ds-icon";
+    src: url("../fonts/ds-icon.eot?e7294012c8f9ccfac9450251f1491b54?#iefix") format("embedded-opentype"),
+url("../fonts/ds-icon.woff2?e7294012c8f9ccfac9450251f1491b54") format("woff2"),
+url("../fonts/ds-icon.woff?e7294012c8f9ccfac9450251f1491b54") format("woff"),
+url("../fonts/ds-icon.ttf?e7294012c8f9ccfac9450251f1491b54") format("truetype"),
+url("../fonts/ds-icon.svg?e7294012c8f9ccfac9450251f1491b54#ds-icon") format("svg");
+}
+
+i[class^="ds-icon-"]:before, i[class*=" ds-icon-"]:before {
+    font-family: ds-icon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ds-icon-restaurants:before {
+    content: "\f101";
+}

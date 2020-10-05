@@ -1,0 +1,14 @@
+{
+  "name": "web-builder",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node-sass --watch ./css -o ./css",
+    "build": "node-sass ./css -o ./css",
+    "compile-font-icons": "icon-font-generator --height=1000 --name ds-icon -p ds-icon --csspath ./css/ds-icons.css  ./font-icons/*.svg -o ./fonts"
+  },
+  "dependencies": {
+    "icon-font-generator": "^2.1.10",
+    "node-sass": "^4.14.1"
+  }
+}
