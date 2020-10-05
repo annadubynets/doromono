@@ -13,11 +13,11 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand mr-0" alt="logo" href="index.html">
-                    <img src="images/logo.png">
+                <a class="navbar-brand mr-0" href="index.html">
+                    <img src="images/logo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="images/menu_icon.svg">
+                    <img src="images/menu_icon.svg" alt="">
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,20 +39,13 @@
                         </li>
                     </ul>
 
-                    <div class="collapse navbar-collapse">
-                        <form class="navbar-form navbar-right navbar-form-search" role="search">
-                            <div class="input-group">
-                                <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-default">
-                                        <i class="ds-icon-search text-black"></i>
-                                    </button>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Search for" name="search">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <button type="submit" class="btn btn-default" id="search-button">
+                        <img src="images/search.svg" alt="">
+                    </button>
+
+                    <button type="submit" class="btn btn-default" id="shop-button">
+                        <img src="images/shop.svg" alt="">
+                    </button>
                 </div>
             </div>
         </nav>
@@ -60,36 +53,90 @@
 
     <section class="main-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="pb-2">McDonalds</h2>
-                    <h1>Happy Hour on Fridays</h1>
+            <div class="owl-carousel">
+                <div class="item">
+                    <div class="row">
+                            <div class="col-lg-6 col-6">
+                                <h2 class="pb-2">McDonalds</h2>
+                                <h1>Happy Hour on Fridays</h1>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 col-7">
+                                <h3 class="pb-4">25% Off on Big Mac Menu from 6 PM to 7 PM</h3>
+                                <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Download E-Voucher</a>
+                            </div>
+                        </div>
                 </div>
-                <div class="col-lg-6 offset-1">
-                    <h3 class="pb-4">25% Off on Big Mac Menu from 6 PM to 7 PM</h3>
-                    <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Download E-Voucher</a>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <h2 class="pb-2">McDonalds</h2>
+                            <h1>Happy Hour on Fridays</h1>
+                        </div>
+                        <div class="col-lg-6 offset-lg-1 col-7">
+                            <h3 class="pb-4">25% Off on Big Mac Menu from 6 PM to 7 PM</h3>
+                            <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Download E-Voucher</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <h2 class="pb-2">McDonalds</h2>
+                            <h1>Happy Hour on Fridays</h1>
+                        </div>
+                        <div class="col-lg-6 offset-lg-1 col-7">
+                            <h3 class="pb-4">25% Off on Big Mac Menu from 6 PM to 7 PM</h3>
+                            <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Download E-Voucher</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <h2 class="pb-2">McDonalds</h2>
+                            <h1>Happy Hour on Fridays</h1>
+                        </div>
+                        <div class="col-lg-6 offset-lg-1 col-7">
+                            <h3 class="pb-4">25% Off on Big Mac Menu from 6 PM to 7 PM</h3>
+                            <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Download E-Voucher</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <h2 class="pb-2">McDonalds</h2>
+                            <h1>Happy Hour on Fridays</h1>
+                        </div>
+                        <div class="col-lg-6 offset-lg-1 col-7">
+                            <h3 class="pb-4">25% Off on Big Mac Menu from 6 PM to 7 PM</h3>
+                            <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Download E-Voucher</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="explore-catalog-section">
-        <div class="row">
-            <div class="col-lg-6 bg-purple text-center pt-5">
-                <h4>E-Vouchers</h4>
-                <p>Free of Charge. Download and use on the spot.</p>
-                <div>
-                    <a class="btn btn-secondary btn-lg" href="#" role="button">Shop Now</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 bg-purple text-center pt-5">
+                    <h4>E-Vouchers</h4>
+                    <p>Free of Charge. Download and use on the spot.</p>
+                    <div>
+                        <a class="btn btn-secondary btn-lg" href="#" role="button">Shop Now</a>
+                    </div>
+                    <img src="images/voucher.png" alt="" class="w-xs-100">
                 </div>
-                <img src="images/voucher.png">
-            </div>
-            <div class="col-lg-6 bg-olive text-center pt-5">
-                <h4>E-Gift Cards</h4>
-                <p>Rewards at your fingertips. Gift to yourself or others easily.</p>
-                <div>
-                    <a class="btn btn-secondary btn-lg" href="#" role="button">Shop Now</a>
+                <div class="col-lg-6 bg-olive text-center pt-5">
+                    <h4>E-Gift Cards</h4>
+                    <p>Rewards at your fingertips. Gift to yourself or others easily.</p>
+                    <div>
+                        <a class="btn btn-secondary btn-lg" href="#" role="button">Shop Now</a>
+                    </div>
+                    <img src="images/card.png" alt="" class="w-xs-100">
                 </div>
-                <img src="images/card.png">
             </div>
         </div>
     </section>
@@ -103,7 +150,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-golden">
                         <div class="card-body text-center">
-                            <i class="ds-icon-restaurants text-white"></i>
+                            <img src="images/restaurants.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none pt-2">Food & Bevarage</p>
                         </div>
                     </div>
@@ -112,7 +159,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-pink">
                         <div class="card-body text-center">
-                            <i class="ds-icon-beauty text-white"></i>
+                            <img src="images/beauty.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Beauty</p>
                         </div>
                     </div>
@@ -121,7 +168,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-purple">
                         <div class="card-body text-center">
-                            <i class="ds-icon-spa text-white"></i>
+                            <img src="images/spa.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Wellness</p>
                         </div>
                     </div>
@@ -130,7 +177,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-olive">
                         <div class="card-body text-center">
-                            <i class="ds-icon-clothing text-white"></i>
+                            <img src="images/clothing.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Fashion & Accessories</p>
                         </div>
                     </div>
@@ -139,7 +186,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-green">
                         <div class="card-body text-center">
-                            <i class="ds-icon-retail text-white"></i>
+                            <img src="images/retail.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Retail</p>
                         </div>
                     </div>
@@ -148,7 +195,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-emerald">
                         <div class="card-body text-center">
-                            <i class="ds-icon-kids text-white"></i>
+                            <img src="images/kids.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Kids</p>
                         </div>
                     </div>
@@ -157,7 +204,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-blue">
                         <div class="card-body text-center">
-                            <i class="ds-icon-services text-white"></i>
+                            <img src="images/services.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Services</p>
                         </div>
                     </div>
@@ -166,7 +213,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-pink-light">
                         <div class="card-body text-center">
-                            <i class="ds-icon-entertainment text-white"></i>
+                            <img src="images/entertainment.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Activities</p>
                         </div>
                     </div>
@@ -175,7 +222,7 @@
                 <div class="col-lg-4 pb-4">
                     <div class="card pt-3 pb-3 w-100 bg-beige">
                         <div class="card-body text-center">
-                            <i class="ds-icon-travel text-white"></i>
+                            <img src="images/travel.svg" alt="">
                             <p class="card-text font-size-md text-decoration-none">Travel</p>
                         </div>
                     </div>
@@ -187,6 +234,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,4 +1,6 @@
 @import "bootstrap.min.css";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.css";
 @import "./ds-icons.css";
 @font-face {
   font-family: "Montserrat-Medium";
@@ -61,17 +63,32 @@ h1 {
   font-size: 84px;
   color: #2B2D42;
 }
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 28px;
+  }
+}
 
 h2 {
   font-family: "Circular-Std-Bold", sans-serif;
   font-size: 56px;
   color: #E0B300;
 }
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 24px;
+  }
+}
 
 h3 {
   font-family: "Circular-Std-Medium", sans-serif;
   font-size: 44px;
   color: #2B2D42;
+}
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 14px;
+  }
 }
 
 h4 {
@@ -86,6 +103,12 @@ p {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 375px) {
+  .w-xs-100 {
+    width: 100%;
+  }
+}
+
 .btn-primary {
   font-size: 18px;
   line-height: 26px;
@@ -96,6 +119,12 @@ p {
   text-align: center;
   padding: 13px 52px;
   margin: 1px;
+}
+@media screen and (max-width: 992px) {
+  .btn-primary {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -210,22 +239,61 @@ header .navbar-light .navbar-nav .nav-link {
 header .navbar-light .navbar-toggler {
   border-color: transparent;
 }
+header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-link:focus {
+  color: #FF7400;
+}
 
 .main-section {
   background-color: #FFCC00;
-  padding: 88px 0px 40px;
-  background-image: url("../images/mcdonalds-fast-food.png");
+  padding: 88px 0;
+  background-image: url("../images/mcdonalds_fast_food.png");
   background-position: right;
   background-repeat: no-repeat;
 }
-
-.shop-categories-section {
-  padding: 108px 0px;
+@media screen and (max-width: 992px) {
+  .main-section {
+    background-image: url("../images/mcdonalds_fast_food_mobile.png");
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+}
+.main-section .card {
+  background-color: transparent;
+}
+.main-section .card-body {
+  background-color: transparent;
 }
 
-.card {
+.shop-categories-section {
+  padding: 108px 0;
+}
+.shop-categories-section .card {
   border-radius: 16px;
   border: none;
+}
+.shop-categories-section .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-next {
+  display: none;
+}
+.owl-carousel .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+}
+.owl-carousel .owl-dots {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.owl-carousel .owl-dots .owl-dot.active span {
+  background-color: #2B2D42;
 }
 
 /*# sourceMappingURL=style.css.map */
